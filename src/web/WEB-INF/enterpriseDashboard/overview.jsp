@@ -31,14 +31,14 @@
 <head>
     <jsp:include page="../includes/htmlhead.jsp"/>
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=${versionTimeStamp}">
     <![endif]-->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css?v=${versionTimeStamp}">
 
-    <script type="text/javascript" src="/scripts/highcharts.js"></script>
-    <script type="text/javascript" src="/scripts/exporting.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.history.js"></script>
-    <script type="text/javascript"  src="/scripts/enterpriseDashboard.js"></script>
+    <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/exporting.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.history.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript"  src="/scripts/enterpriseDashboard.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page" class="dashboardPage">

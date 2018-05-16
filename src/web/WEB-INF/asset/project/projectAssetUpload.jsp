@@ -32,7 +32,7 @@
     <jsp:include page="../../includes/serverConfiguration.jsp"/>
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
     <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css" />
     <link rel="stylesheet" href="/css/direct/launchcontest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/dashboard.css?v=${versionTimeStamp}" media="all" type="text/css" />
@@ -67,7 +67,7 @@
         //]]>
     </script>
 
-    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery-ui-1.7.2.custom.min.js?v=${versionTimeStamp}"></script>
 
     <script type="text/javascript" src="/scripts/jquery.tablesorter.min.js?v=${versionTimeStamp}"></script>
@@ -85,7 +85,7 @@
     <script type="text/javascript" src="/scripts/jquery.blockUI.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.validate.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.autocomplete.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.hoverIntent.minified.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.cookie.js?v=${versionTimeStamp}"></script>
@@ -93,24 +93,24 @@
     <script type="text/javascript" src="/scripts/dashboard.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/loadHelps.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/maintenance.js?v=1"></script>
-    <script type="text/javascript" src="/scripts/modalWindows.js"></script>
-    <script type="text/javascript" src="/scripts/instantSearch.js"></script>
+    <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
     <ui:projectPageType tab="assets"/>
     <link rel="stylesheet" href="/css/direct/filter-panel.css" media="all" type="text/css"/>
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/assets-ie7.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/assets-ie7.css?v=${versionTimeStamp}">
     <![endif]-->
     <link rel="stylesheet" href="/css/direct/assets.css" media="all" type="text/css"/>
-    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js"></script>
-    <script type="text/javascript" src="/scripts/search.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.fileupload.js"></script>
-    <script type="text/javascript" src="/scripts/ajaxupload2.js"></script>
-    <script type="text/javascript" src="/scripts/moment.min.js"></script>
-    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js"></script>
-    <script type="text/javascript" src="/scripts/assets.js"></script>
-    <script type="text/javascript" src="/scripts/rightSidebar.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.iframe-transport.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.ui.widget.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.fileupload.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/assets.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/rightSidebar.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page">

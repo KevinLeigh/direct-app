@@ -15,7 +15,7 @@
 <head>
     <jsp:include page="/WEB-INF/includes/htmlhead.jsp"/>
     <jsp:include page="/WEB-INF/includes/paginationSetup.jsp"/>
-    <script type="text/javascript" src="/scripts/clientInvoiceManage.js"></script>
+    <script type="text/javascript" src="/scripts/clientInvoiceManage.js?v=${versionTimeStamp}"></script>
     <ui:dashboardPageType tab="dashboard"/>
 </head>
 

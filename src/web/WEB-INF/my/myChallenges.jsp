@@ -19,9 +19,9 @@
 <head>
     <jsp:include page="../includes/htmlhead.jsp"/>
     <ui:challengesPageType tab="myChallenges"/>
-    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/my/challenges.js"></script>
+    <script type="text/javascript" src="/scripts/my/challenges.js?v=${versionTimeStamp}"></script>
 
 <body id="page">
 

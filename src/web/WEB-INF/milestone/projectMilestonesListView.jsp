@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/projectMilestone.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/jsrender.min.js"></script>
+    <script type="text/javascript" src="/scripts/jsrender.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/projectMilestone.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript">
         var tcDirectProjectId = <s:property value="formData.projectId"/>;

@@ -36,7 +36,7 @@
     <jsp:include page="includes/serverConfiguration.jsp"/>
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
     <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css" />
     <link rel="stylesheet" href="/css/direct/launchcontest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/dashboard.css?v=${versionTimeStamp}" media="all" type="text/css" />
@@ -88,7 +88,7 @@ window.CKEDITOR_BASEPATH='/scripts/ckeditor/ckeditor/';
     <script type="text/javascript" src="/scripts/jquery.blockUI.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.validate.js?v=${versionTimeStamp}"></script>
-	<script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.autocomplete.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.hoverIntent.minified.js?v=${versionTimeStamp}"></script>
 	<script type="text/javascript" src="/scripts/jquery.cookie.js?v=${versionTimeStamp}"></script>
@@ -98,10 +98,10 @@ window.CKEDITOR_BASEPATH='/scripts/ckeditor/ckeditor/';
     <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/maintenance.js?v=${versionTimeStamp}"></script>
     <link rel="stylesheet" href="/css/direct/jsgantt.css" media="all" type="text/css"/>
-    <script type="text/javascript" src="/scripts/jsgantt.js"></script>
-    <script type="text/javascript" src="/scripts/directgantt.js"></script>
-    <script type="text/javascript" src="/scripts/instantSearch.js"></script>
-    <script type="text/javascript" src="/scripts/rightSidebar.js"></script>
+    <script type="text/javascript" src="/scripts/jsgantt.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/directgantt.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/rightSidebar.js?v=${versionTimeStamp}"></script>
 
     <ui:projectPageType tab="gameplan"/>
 </head>

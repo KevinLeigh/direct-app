@@ -15,8 +15,8 @@
     <ui:projectPageType tab="contests"/>
     <ui:contestPageType tab="finalFixes"/>
     <jsp:include page="includes/contest/submissionViewer/submissionViewerHtmlHead.jsp"/>
-    <script type="text/javascript" src="/scripts/studioFinalFixes.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="/scripts/studioFinalFixes.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.jqtransform.js?v=${versionTimeStamp}"></script>
 </head>
 <body id="page">
 <div id="wrapper">

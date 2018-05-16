@@ -29,7 +29,7 @@
     <ui:reportPageType tab="reports"/>
     <jsp:include page="/WEB-INF/includes/htmlhead.jsp"/>
     <jsp:include page="/WEB-INF/includes/paginationSetup.jsp"/>
-    <script type="text/javascript" src="/scripts/dashboard-project-metrics-report.js"></script>
+    <script type="text/javascript" src="/scripts/dashboard-project-metrics-report.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
     <link rel="stylesheet" href="/css/direct/dashboard-enterprise.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 </head>

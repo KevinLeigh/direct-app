@@ -29,7 +29,7 @@
 
     <!-- External javascript -->
     <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/group.js"></script>
+    <script type="text/javascript" src="/scripts/group.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page" class="dashboardPage">

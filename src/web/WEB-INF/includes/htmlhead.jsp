@@ -31,7 +31,7 @@
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
 <!-- External CSS -->
 <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <link rel="stylesheet" href="/css/direct/launchcontest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
@@ -42,7 +42,7 @@
 <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 <link rel="stylesheet" href="/css/direct/datepicker.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 <link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css" />
-<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/introjs.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/introjs.css?v=${versionTimeStamp}">
 
 <!--[if IE 6]>
 <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie6.css?v=${versionTimeStamp}" />
@@ -88,7 +88,7 @@
 <script type="text/javascript" src="/scripts/jquery.blockUI.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.validate.js?v=${versionTimeStamp}"></script>
-<script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/scripts/ckeditor/ckeditor/ckeditor.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.autocomplete.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.hoverIntent.minified.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.cookie.js?v=${versionTimeStamp}"></script>
@@ -97,8 +97,8 @@
 <script type="text/javascript" src="/scripts/loadHelps.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/maintenance.js?v=1"></script>
-<script type="text/javascript" src="/scripts/instantSearch.js"></script>
-<script type="text/javascript" src="/scripts/intro.js"></script>
+<script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
+<script type="text/javascript" src="/scripts/intro.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.jqtransform.js" ></script>
 <script type="text/javascript" src="/scripts/rightSidebar.js" ></script>
 <link rel="stylesheet" href="/css/direct/jqtransform.css" media="all" type="text/css"/>

@@ -22,15 +22,15 @@
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=${versionTimeStamp}"/>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/jquery.multiSelect.css"/>
-    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.tools.min.js"></script>
-    <script type="text/javascript" src="/scripts/jsrender.min.js"></script>
-    <script type="text/javascript" src="/scripts/highcharts.js"></script>
-    <script type="text/javascript" src="/scripts/search.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.multiselect.js"></script>
-    <script type="text/javascript" src="/scripts/platformSpecialistsReport.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css?v=${versionTimeStamp}">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/jquery.multiSelect.css?v=${versionTimeStamp}">
+    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jsrender.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.multiselect.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/platformSpecialistsReport.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page" class="dashboardPage">

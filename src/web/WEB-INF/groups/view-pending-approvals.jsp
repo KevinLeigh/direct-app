@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="/css/direct/layout-groups.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
     <!-- External javascript -->
-    <script type="text/javascript" src="/scripts/group.js"></script>
+    <script type="text/javascript" src="/scripts/group.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page" class="dashboardPage">

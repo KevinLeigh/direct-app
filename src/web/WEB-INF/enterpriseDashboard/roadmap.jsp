@@ -23,18 +23,18 @@
 <head>
     <jsp:include page="../includes/htmlhead.jsp"/>
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/dashboard-ie7.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/dashboard-ie7.css?v=${versionTimeStamp}">
     <![endif]-->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css?v=${versionTimeStamp}">
     <link rel="stylesheet" href="/css/direct/milestone-fullCalendar.css" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/projectMilestone.css" media="all" type="text/css"/>
-    <script type="text/javascript" src="/scripts/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="/scripts/highcharts.js"></script>
-    <script type="text/javascript" src="/scripts/exporting.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.dataTables.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/exporting.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/milestone-fullCalendar.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.history.js"></script>
-    <script type="text/javascript" src="/scripts/enterpriseDashboard.js"></script>
+    <script type="text/javascript" src="/scripts/milestone-fullCalendar.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.history.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/enterpriseDashboard.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page" class="dashboardPage">

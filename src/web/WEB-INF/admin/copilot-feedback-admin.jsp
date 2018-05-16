@@ -29,7 +29,7 @@
     <jsp:include page="../includes/htmlhead.jsp"/>
     <ui:adminPageType tab="copilotFeedbackAdmin"/>
     <jsp:include page="../includes/paginationSetup.jsp"/>
-    <script type="text/javascript" src="/scripts/copilotFeedbackAdmin.js"></script>
+    <script type="text/javascript" src="/scripts/copilotFeedbackAdmin.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page">

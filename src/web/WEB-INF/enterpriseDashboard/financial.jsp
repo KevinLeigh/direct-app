@@ -31,15 +31,15 @@
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=${versionTimeStamp}"/>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css"/>
-    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.tools.min.js"></script>
-    <script type="text/javascript" src="/scripts/jsrender.min.js"></script>
-    <script type="text/javascript" src="/scripts/search.js"></script>
-    <script type="text/javascript" src="/scripts/highcharts.js"></script>
-    <script type="text/javascript" src="/scripts/exporting.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.history.js"></script>
-    <script type="text/javascript" src="/scripts/enterpriseDashboard.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/enterpriseDashboard.css?v=${versionTimeStamp}">
+    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jsrender.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/exporting.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.history.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/enterpriseDashboard.js?v=${versionTimeStamp}"></script>
     <script id="financialDrillInTemplate" type="text/x-jsrender">
         <tr>
             <td class="first">

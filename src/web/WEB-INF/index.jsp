@@ -44,8 +44,8 @@
     <link rel="stylesheet" href="/css/direct/homepage.css" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/customFont.css" media="all" type="text/css"/>
 
-    <script type="text/javascript" src="/scripts/jquery-1.4.1.min.js"></script>
-    <script src="https://cdn.auth0.com/w2/auth0-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.4.1.min.js?v=${versionTimeStamp}"></script>
+    <script src="https://cdn.auth0.com/w2/auth0-1.6.4.min.js?v=${versionTimeStamp}"></script>
 
 
     <script type="text/javascript">
@@ -202,8 +202,8 @@
     </div>
 
     <!-- External javascripts -->
-    <script type="text/javascript" src="/scripts/jquery.jqtransform.js"></script>
-    <script type="text/javascript" src="/scripts/scripts.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.jqtransform.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/scripts.js?v=${versionTimeStamp}"></script>
 
 </body>
 <!-- End #page -->

@@ -9,9 +9,9 @@
   - Version 1.2 (TOPCODER - IMPROVE TASK ASSIGNEE FILTERING FOR CHALLENGES WITH GROUPS)
   - - Add group member search var
 --%>
-<script type="text/javascript" src="/scripts/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
-<script type="text/javascript" src="/scripts/magicsuggest.js"></script>
+<script type="text/javascript" src="/scripts/jquery-1.11.1.min.js?v=${versionTimeStamp}"></script>
+<script type="text/javascript" src="/scripts/bootstrap.min.js?v=${versionTimeStamp}"></script>
+<script type="text/javascript" src="/scripts/magicsuggest.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript">
     var jQuery_1_11_1 = $.noConflict(true);
     var member_api_url = "@memberSearchApiUrl@";

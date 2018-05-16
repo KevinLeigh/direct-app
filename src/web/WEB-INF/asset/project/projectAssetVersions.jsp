@@ -28,7 +28,7 @@
     <jsp:include page="../../includes/serverConfiguration.jsp"/>
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
     <link rel="stylesheet" href="/css/direct/screen.css" media="all" type="text/css" />
     <link rel="stylesheet" href="/css/direct/dashboard.css" media="all" type="text/css" />
     <link rel="stylesheet" href="/css/direct/modal.css" media="all" type="text/css"/>
@@ -39,20 +39,20 @@
     <link rel="stylesheet" href="/css/direct/assets.css" media="all" type="text/css"/>
 
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie7.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/filter-panel-ie7.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/assets-ie7.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie7.css?v=${versionTimeStamp}">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/filter-panel-ie7.css?v=${versionTimeStamp}">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/assets-ie7.css?v=${versionTimeStamp}">
     <![endif]-->
 
     <!--[if IE 8]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie8.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie8.css?v=${versionTimeStamp}">
     <![endif]-->
 
     <!--[if IE 9]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie9.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie9.css?v=${versionTimeStamp}">
     <![endif]-->
 
-    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery-ui-1.7.2.custom.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/thickbox-compressed.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.tablesorter.min.js?v=${versionTimeStamp}"></script>
@@ -72,20 +72,20 @@
     <script type="text/javascript" src="/scripts/loadHelps.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/maintenance.js?v=1"></script>
-    <script type="text/javascript" src="/scripts/instantSearch.js"></script>
+    <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
 
     <!-- Table Data -->
-    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
 
-    <script type="text/javascript" src="/scripts/search.js"></script>
+    <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
     <!-- File Upload -->
-    <script type="text/javascript" src="/scripts/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.fileupload.js"></script>
-    <script type="text/javascript" src="/scripts/moment.min.js"></script>
-    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js"></script>
-    <script type="text/javascript" src="/scripts/assets.js"></script>
-    <script type="text/javascript" src="/scripts/rightSidebar.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.iframe-transport.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.ui.widget.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.fileupload.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/assets.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/rightSidebar.js?v=${versionTimeStamp}"></script>
 
 </head>
 

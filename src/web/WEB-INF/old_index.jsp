@@ -88,8 +88,8 @@
             return false;
         }
     </script>
-	 <script src="/scripts/auth0-widget-2.3.6.min.js"></script>
-    <script src="https://d19p4zemcycm7a.cloudfront.net/w2/auth0-widget-2.3.6.min.js"></script>
+	 <script src="/scripts/auth0-widget-2.3.6.min.js?v=${versionTimeStamp}"></script>
+    <script src="https://d19p4zemcycm7a.cloudfront.net/w2/auth0-widget-2.3.6.min.js?v=${versionTimeStamp}"></script>
         <script type="text/javascript">
             var widget = new Auth0Widget({
                 domain: '<%=DirectProperties.DOMAIN_AUTH0%>',

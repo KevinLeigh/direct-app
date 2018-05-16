@@ -50,7 +50,7 @@
 	</s:if>
     <jsp:include page="includes/paginationSetup.jsp"/>
     <jsp:include page="includes/filterPanel.jsp"/>
-    <script type="text/javascript" src="/scripts/jquery.multiselect.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.multiselect.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/directProjectManage.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript">
         $(document).ready(function () {

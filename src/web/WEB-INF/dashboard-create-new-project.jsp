@@ -43,8 +43,8 @@
     <link rel="stylesheet" href="/css/direct/ganttchart.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/dhtmlxcommon.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/dhtmlxgantt.js?v=${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/moment.min.js"></script>
-    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js?v=${versionTimeStamp}"></script>
 	<script type="text/javascript" src="/scripts/launch/entity.js?v=${versionTimeStamp}"></script>
 	<script type="text/javascript" src="/scripts/launch/main.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript">
@@ -57,7 +57,7 @@
     <script type="text/javascript" src="/scripts/project-create-flow-mobile.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/project-create-flow-presentation.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/newCockpitProject.js?v= ${versionTimeStamp}"></script>
-    <script type="text/javascript" src="/scripts/project-create-flow-analytics.js"></script>
+    <script type="text/javascript" src="/scripts/project-create-flow-analytics.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page">

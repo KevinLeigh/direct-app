@@ -46,7 +46,7 @@
     <jsp:include page="includes/htmlhead.jsp"/>
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/marathonMatches-ie7.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/marathonMatches-ie7.css?v=${versionTimeStamp}">
     <![endif]-->    
     <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
@@ -65,16 +65,16 @@
     //]]>
     </script>
 
-    <script type="text/javascript" src="/scripts/moment.min.js"></script>
-    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/launch/entity.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/launch/main.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/launch/contestDetailSoftware.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/repostcontest.js?v=${versionTimeStamp}"></script>
 
     <!-- New Script For Marathon Matches -->
-    <script type="text/javascript" src="/scripts/highcharts.js"></script>
-    <script type="text/javascript" src="/scripts/marathonMatches.js"></script>
+    <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/marathonMatches.js?v=${versionTimeStamp}"></script>
     <script>
         <c:if test="${hasRoundId}">
             var timeLineData = ${viewData.timeLineGraphData};

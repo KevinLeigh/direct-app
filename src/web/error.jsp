@@ -26,7 +26,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
     <link rel="stylesheet" href="/css/direct/dashboard.css?v=${versionTimeStamp}" media="all" type="text/css" />
     <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css"/>
@@ -34,16 +34,16 @@
     <link rel="stylesheet" href="/css/direct/jquery.jcarousel.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/thickbox.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <!--[if IE 6]>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/homepage-ie6.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/homepage-ie6.css?v=${versionTimeStamp}">
     <![endif]-->
 
     <!-- External javascript -->
-    <script type="text/javascript" src="/scripts/jquery-1.4.1.min.js"></script>
-    <script type="text/javascript" src="/scripts/ajaxupload2.js"></script>
-    <script type="text/javascript" src="/scripts/jquery.scrollfollow.js"></script>
-    <script type="text/javascript" src="/scripts/common.js"></script>
-    <script type="text/javascript" src="/scripts/dashboard.js"></script>
-    <script type="text/javascript" src="/scripts/modalWindows.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.4.1.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.scrollfollow.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/common.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/dashboard.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page">

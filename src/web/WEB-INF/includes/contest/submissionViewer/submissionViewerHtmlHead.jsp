@@ -35,7 +35,7 @@
 <jsp:include page="../../serverConfiguration.jsp"/>
 
 <!-- External CSS -->
-<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
 <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <link rel="stylesheet" href="/css/direct/dashboard.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css" />
@@ -75,9 +75,9 @@
 <script type="text/javascript" src="/scripts/jquery.datePicker.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.bgiframe.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/jquery.scrollfollow.js?v=${versionTimeStamp}"></script>
-<script type="text/javascript" src="/scripts/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="/scripts/jquery.hoverIntent.minified.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/ajaxupload2.js?v=${versionTimeStamp}"></script>
-<script type="text/javascript" src="/scripts/instantSearch.js"></script>
+<script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
 
 <script type="text/javascript" src="/scripts/jquery.select.js?v=${versionTimeStamp}"></script>
 <script type="text/javascript" src="/scripts/studio.js?v=${versionTimeStamp}"></script>
@@ -108,7 +108,7 @@
         return true;
     };
 </script>
-<script type="text/javascript" src="/scripts/wireframe-viewer.js"></script>
+<script type="text/javascript" src="/scripts/wireframe-viewer.js?v=${versionTimeStamp}"></script>
 </c:if>
 
 <s:if test="formData.viewType.toString() == 'GRID'">
@@ -138,8 +138,8 @@
 <script type="text/javascript" src="/scripts/jquery.cookie.js?v=${versionTimeStamp}"></script>
 
 <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
-<script type="text/javascript" src="/scripts/finalFixDecision.js"></script>
+<script type="text/javascript" src="/scripts/finalFixDecision.js?v=${versionTimeStamp}"></script>
 
-<script type="text/javascript" src="/scripts/submission_viewer.js"></script>
-<script type="text/javascript" src="/scripts/rightSidebar.js"></script>
+<script type="text/javascript" src="/scripts/submission_viewer.js?v=${versionTimeStamp}"></script>
+<script type="text/javascript" src="/scripts/rightSidebar.js?v=${versionTimeStamp}"></script>
 

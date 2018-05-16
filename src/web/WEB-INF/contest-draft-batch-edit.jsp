@@ -16,7 +16,7 @@
     <jsp:include page="includes/htmlhead.jsp"/>
     <ui:projectPageType tab="gameplan"/>
     <link rel="stylesheet" href="/css/direct/contests-batch.css" media="all" type="text/css" />
-    <script type="text/javascript" src="/scripts/contests-batch.js"></script>
+    <script type="text/javascript" src="/scripts/contests-batch.js?v=${versionTimeStamp}"></script>
 </head>
 
 <body id="page">
