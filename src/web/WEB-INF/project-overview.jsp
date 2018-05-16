@@ -56,16 +56,16 @@
     <jsp:include page="includes/htmlhead.jsp"/>
 
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=214041" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=${versionTimeStamp}" />
     <![endif]-->
     <ui:projectPageType tab="overview"/>
-    <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=212459" media="all" type="text/css" />
-    <link rel="stylesheet" href="/css/direct/projectOverview.css?v=213353" media="all" type="text/css" />
-    <script type="text/javascript" src="/scripts/jquery.dataTables.js?v=192711"></script>
-    <script type="text/javascript" src="/scripts/jquery.ba-throttle-debounce.js?v=203928"></script>
-    <script type="text/javascript" src="/scripts/dashboard-view.js?v=215290"></script>
-    <script type="text/javascript" src="/scripts/jquery.jcarousel.min.js?v=211035"></script>
-    <script type="text/javascript" src="/scripts/directProjectOverview.js?v=215290"></script>
+    <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=${versionTimeStamp}" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/projectOverview.css?v=${versionTimeStamp}" media="all" type="text/css" />
+    <script type="text/javascript" src="/scripts/jquery.dataTables.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.ba-throttle-debounce.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/dashboard-view.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.jcarousel.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/directProjectOverview.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript">
         var tcDirectProjectId = <s:property value="formData.projectId"/>;
     </script>

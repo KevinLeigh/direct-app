@@ -46,13 +46,13 @@
     <ui:contestPageType tab="submissions"/>
     <jsp:include page="includes/contest/submissionViewer/submissionViewerHtmlHead.jsp"/>
                                          
-    <link rel="stylesheet" href="/css/direct/submission_viewer.css?v=214359"  type="text/css" />
-    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js?v=211035"></script>
-    <script type="text/javascript" src="/scripts/jquery.jcarousel.min.js?v=211035"></script>
-    <script type="text/javascript" src="/scripts/json2.js?v=186145"></script>
-    <script type="text/javascript" src="/scripts/jquery.cookie.js?v=187251"></script>
-    <script type="text/javascript" src="/scripts/submission_viewer.js?v=211210"></script>
-    <script type="text/javascript" src="/scripts/bank-single.js?v=211279"></script>
+    <link rel="stylesheet" href="/css/direct/submission_viewer.css?v=${versionTimeStamp}"  type="text/css" />
+    <script type="text/javascript" src="/scripts/jquery-1.6.2.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.jcarousel.min.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/json2.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/jquery.cookie.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/submission_viewer.js?v=${versionTimeStamp}"></script>
+    <script type="text/javascript" src="/scripts/bank-single.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript">
         var hasContestWritePermission = ${viewData.hasContestWritePermission};
         var checkpointReviewPhaseOpen = ${viewData.checkpointReviewPhaseOpen};
