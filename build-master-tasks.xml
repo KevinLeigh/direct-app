@@ -212,4 +212,11 @@
             </replaceregexp>
         </sequential>
     </macrodef>
+
+    <scriptdef name="set-version-time-stamp" language="groovy" classpathref="script.path">
+        <![CDATA[
+            def versionTimeStamp = (System.currentTimeMillis() / 1000).longValue();
+            project.setProperty('versionTimeStamp', "${versionTimeStamp}");
+        ]]>
+    </scriptdef>
 </project>
