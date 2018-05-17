@@ -51,7 +51,7 @@
     <jsp:include page="includes/htmlhead.jsp"/>
     <script type="text/javascript" src="/scripts/jquery.tools.min.js?v=${versionTimeStamp}"></script>
     <link rel="stylesheet" href="/css/direct/editProject.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/magicsuggest.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/magicsuggest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript">
         var groupIds = []; 
         var group;

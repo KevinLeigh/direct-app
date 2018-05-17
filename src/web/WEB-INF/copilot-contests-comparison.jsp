@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="/css/direct/jquery-ui-1.7.2.custom.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/datepicker.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/instantSearch.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
     <!--[if IE 6]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie6.css?v=${versionTimeStamp}" />
@@ -97,12 +97,12 @@
     <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
 
     <link rel="stylesheet" href="/css/direct/permissions.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/permissions.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/copilot/copilotStats.js?v=${versionTimeStamp}"></script>
-    <link rel="stylesheet" href="/css/direct/jsgantt.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/jsgantt.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/jsganttPlanner.js?v=${versionTimeStamp}"></script>
-    <link rel="stylesheet" href="/css/direct/projectPlanner.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/projectPlanner.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/projectPlanner.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/rightSidebar.js?v=${versionTimeStamp}"></script>
     <jsp:include page="includes/paginationSetup.jsp"/>

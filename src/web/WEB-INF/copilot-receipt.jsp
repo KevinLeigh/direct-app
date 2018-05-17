@@ -25,7 +25,7 @@
 <head>
     <jsp:include page="includes/htmlhead.jsp"/>
     <jsp:include page="includes/paginationSetup.jsp"/>
-    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript">
         $(document).ready(function(){
             $(".prizesTable:eq(0) tbody tr td:gt(1):lt(2)").hide();

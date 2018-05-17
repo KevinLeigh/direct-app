@@ -45,14 +45,14 @@
     <jsp:include page="includes/jq_1_11_1.jsp"/>
     <jsp:include page="includes/htmlhead.jsp"/>
     <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie7.css?v=${versionTimeStamp}" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/marathonMatches-ie7.css?v=${versionTimeStamp}">
     <![endif]-->    
     <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
     <!-- New Style For Marathon Matches -->
-    <link rel="stylesheet" href="/css/direct/marathonMatches.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/magicsuggest.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/marathonMatches.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/magicsuggest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     
     <ui:projectPageType tab="gameplan"/>
     <ui:contestPageType tab="details"/>

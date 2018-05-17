@@ -42,8 +42,8 @@
 <link rel="stylesheet" href="/css/direct/jScrollPane.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <link rel="stylesheet" href="/css/direct/thickbox.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <link rel="stylesheet" href="/css/direct/jquery.selectbox.css?v=${versionTimeStamp}"  type="text/css" />
-<link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css" />
-<link rel="stylesheet" href="/css/direct/studioFinalfix.css" media="all" type="text/css" />
+<link rel="stylesheet" href="/css/direct/instantSearch.css?v=${versionTimeStamp}" media="all" type="text/css" />
+<link rel="stylesheet" href="/css/direct/studioFinalfix.css?v=${versionTimeStamp}" media="all" type="text/css" />
 <s:if test="formData.viewType.toString() == 'SINGLE' || formData.viewType.toString() == 'CHECKOUT'">
 <link rel="stylesheet" href="/css/direct/jquery-ui-1.7.2.custom.css?v=${versionTimeStamp}"  type="text/css" />
 </s:if>

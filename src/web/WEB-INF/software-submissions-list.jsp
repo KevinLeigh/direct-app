@@ -35,7 +35,7 @@
     <ui:projectPageType tab="contests"/>
     <ui:contestPageType tab="submissions"/>
     <jsp:include page="includes/htmlhead.jsp"/>
-    <link type="text/css" media="all" href="/css/direct/checkpoint-management.css" rel="stylesheet">
+    <link type="text/css" media="all" href="/css/direct/checkpoint-management.css?v=${versionTimeStamp}" rel="stylesheet">
     <script src="/scripts/jquery.dataTables-1.9.1.min.js" type="text/javascript"></script>
     <script src="/scripts/checkpoint-management.js" type="text/javascript"></script>
 </head>

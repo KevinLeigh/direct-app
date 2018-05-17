@@ -30,7 +30,7 @@
     <![endif]-->
 
     <!-- New Style For Marathon Matches -->
-    <link rel="stylesheet" href="/css/direct/marathonMatches.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/marathonMatches.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 
     <!-- New Script For Marathon Matches -->
     <script type="text/javascript" src="/scripts/highcharts.js?v=${versionTimeStamp}"></script>

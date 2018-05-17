@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="/css/direct/jquery-ui-1.7.2.custom.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/datepicker.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/instantSearch.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
     <!--[if IE 6]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie6.css?v=${versionTimeStamp}" />
@@ -97,7 +97,7 @@ window.CKEDITOR_BASEPATH='/scripts/ckeditor/ckeditor/';
     <script type="text/javascript" src="/scripts/loadHelps.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/maintenance.js?v=${versionTimeStamp}"></script>
-    <link rel="stylesheet" href="/css/direct/jsgantt.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/jsgantt.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/jsgantt.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/directgantt.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>

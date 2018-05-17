@@ -53,7 +53,7 @@
     <jsp:include page="includes/htmlhead.jsp"/>
     <link rel="stylesheet" href="/css/direct/dashboard-view.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 	<link rel="stylesheet" href="/css/direct/copilotDetails.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/moment-timezone-with-data-2010-2020.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/dashboard-view.js?v=${versionTimeStamp}"></script>

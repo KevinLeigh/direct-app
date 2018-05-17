@@ -55,7 +55,7 @@
     <jsp:include page="includes/filterPanel.jsp"/>
     <script type="text/javascript" src="/scripts/repostcontest.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/export-panel.js?v=${versionTimeStamp}"></script>
-    <link rel="stylesheet" href="/css/direct/exportPanel.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/exportPanel.css?v=${versionTimeStamp}" media="all" type="text/css" />
 </head>
 
 <body id="page">

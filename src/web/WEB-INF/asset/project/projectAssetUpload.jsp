@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="/css/direct/jquery-ui-1.7.2.custom.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <link rel="stylesheet" href="/css/direct/datepicker.css?v=${versionTimeStamp}" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/instantSearch.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
     <!--[if IE 6]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/dashboard-ie6.css?v=${versionTimeStamp}" />
@@ -96,11 +96,11 @@
     <script type="text/javascript" src="/scripts/modalWindows.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/instantSearch.js?v=${versionTimeStamp}"></script>
     <ui:projectPageType tab="assets"/>
-    <link rel="stylesheet" href="/css/direct/filter-panel.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/filter-panel.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/assets-ie7.css?v=${versionTimeStamp}">
     <![endif]-->
-    <link rel="stylesheet" href="/css/direct/assets.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/assets.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/jquery.dataTables-1.9.1.min.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/search.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/jquery.iframe-transport.js?v=${versionTimeStamp}"></script>

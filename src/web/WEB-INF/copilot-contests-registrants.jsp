@@ -30,7 +30,7 @@
 <head>
     <jsp:include page="includes/htmlhead.jsp"/>
     <jsp:include page="includes/paginationSetup.jsp"/>
-    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/copilot/copilotPosting.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/copilot/copilotStats.js?v=${versionTimeStamp}"></script>
 </head>
 

@@ -29,14 +29,14 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/customFont.css?v=${versionTimeStamp}">
-    <link rel="stylesheet" href="/css/direct/screen.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="/css/direct/dashboard.css" media="all" type="text/css" />
-    <link rel="stylesheet" href="/css/direct/modal.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/datepicker.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/filter-panel.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/instantSearch.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/screen.css?v=${versionTimeStamp}" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/dashboard.css?v=${versionTimeStamp}" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/modal.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/datepicker.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/filter-panel.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/instantSearch.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <!-- Assets CSS -->
-    <link rel="stylesheet" href="/css/direct/assets.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/assets.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/direct/screen-ie7.css?v=${versionTimeStamp}">

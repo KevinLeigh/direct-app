@@ -28,9 +28,9 @@
 <head>
     <jsp:include page="includes/jq_1_11_1.jsp"/>
     <jsp:include page="includes/htmlhead.jsp"/>
-    <link rel="stylesheet" href="/css/direct/projectMilestone.css" media="all" type="text/css" />
+    <link rel="stylesheet" href="/css/direct/projectMilestone.css?v=${versionTimeStamp}" media="all" type="text/css" />
 
-    <link rel="stylesheet" href="/css/direct/magicsuggest.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/magicsuggest.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <c:set var="PAGE_TYPE" value="launch" scope="request"/>
     <script type="text/javascript" src="/scripts/launch/entity.js?v=${versionTimeStamp}"></script>
     <script type="text/javascript" src="/scripts/moment.min.js?v=${versionTimeStamp}"></script>

@@ -24,9 +24,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="/css/direct/jqtransform.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/homepage.css" media="all" type="text/css"/>
-    <link rel="stylesheet" href="/css/direct/customFont.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/jqtransform.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/homepage.css?v=${versionTimeStamp}" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/customFont.css?v=${versionTimeStamp}" media="all" type="text/css"/>
 
     <script type="text/javascript" src="/scripts/jquery-1.4.1.min.js?v=${versionTimeStamp}"></script>
     <script src="https://cdn.auth0.com/w2/auth0-1.6.4.min.js?v=${versionTimeStamp}"></script>

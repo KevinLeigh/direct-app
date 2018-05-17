@@ -19,7 +19,7 @@
     <jsp:include page="../includes/htmlhead.jsp"/>
     <ui:adminPageType tab="contestFee"/>
 	<jsp:include page="../includes/paginationSetup.jsp"/>
-    <link rel="stylesheet" href="/css/direct/platform-fee.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="/css/direct/platform-fee.css?v=${versionTimeStamp}" media="all" type="text/css"/>
     <script type="text/javascript" src="/scripts/platform-fee.js?v=${versionTimeStamp}"></script>
 <!--[if IE 6]>
     <script type="text/javascript" src="/scripts/DD_belatedPNG.js?v=${versionTimeStamp}"></script>
