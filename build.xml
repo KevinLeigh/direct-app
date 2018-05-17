@@ -460,6 +460,10 @@
                 <include name="scripts/**/*"/>
             </fileset>
         </copy>
+        <antcall target="apply-version-timestamps">
+            <param name="src" value="${jboss_deploy_dir}/static.ear/static.war"/>
+            <param name="include" value="**/*.htm"/>
+        </antcall>
     </target>
 
     <target name="version-deploy-jsp" depends="update-revision-numbers-for-jsp">
@@ -637,13 +641,11 @@
 
     <!--Timestamp version property-->
     <property name="versionTimeStamp" value=""/>
+    <set-version-time-stamp/>
 
-    <target name="apply-jsp-version-timestamps">
-
-        <set-version-time-stamp/>
-
-        <replace dir="${build_distdir}/direct.war" value="${versionTimeStamp}">
-            <include name="**/*.jsp"/>
+    <target name="apply-version-timestamps">
+        <replace dir="${src}" value="${versionTimeStamp}">
+            <include name="${include}"/>
             <replacetoken>${versionTimeStamp}</replacetoken>
         </replace>
 
@@ -677,7 +679,10 @@
         <unzip src="temp.war" dest="${component.war}"/>
         <delete file="temp.war"/>
 
-        <antcall target="apply-jsp-version-timestamps"/>
+        <antcall target="apply-version-timestamps">
+            <param name="src" value="${build_distdir}/direct.war"/>
+            <param name="include" value="**/*.jsp"/>
+        </antcall>
 
         <if>
             <equals arg1="${version}" arg2="true"/>
